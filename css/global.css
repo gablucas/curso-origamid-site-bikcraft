@@ -1,0 +1,21 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, p, ul, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
