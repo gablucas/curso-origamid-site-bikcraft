@@ -1,6 +1,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 600px;
 }
 
 h1, h2, h3, p, ul, body {
@@ -14,7 +15,9 @@ ul {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
+
 img {
   display: block;
   max-width: 100%;

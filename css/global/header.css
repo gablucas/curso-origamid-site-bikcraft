@@ -22,14 +22,14 @@
 }
 
 .header-menu a {
-  color: #fff;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-weight: 500;
   font-size: 18px;
   line-height: 32px;
   padding: 16px 0px;
   display: inline-block;
   position: relative;
+  color: #fff;
 }
 
 .header-menu a:after {
