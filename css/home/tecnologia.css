@@ -1,0 +1,66 @@
+.tecnologia-bg {
+  background-color: var(--cor-11);
+  box-shadow: inset 0px 80px var(--cor-0), inset 0px -80px var(--cor-0);
+}
+
+.tecnologia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.tecnologia img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.conteudo-tecnologia {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.subtitulo-tecnologia {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.titulo-tecnologia {
+  margin-bottom: 32px;
+}
+
+.texto-tecnologia {
+  margin-bottom: 20px;
+}
+
+.botao-tecnologia {
+  margin-bottom: 75px;
+}
+
+.lista-tecnologia {
+  display: flex;
+  gap: 40px;
+}
+
+.lista-tecnologia h3 {
+  margin-bottom: 8px;
+  width: max-content;
+}
+
+.lista-tecnologia h3:before {
+  content: "";
+  width: 32px;
+  height: 32px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.eletrico h3::before {
+  background: url("/img/icones/eletrica.svg") no-repeat center;
+}
+
+.rastreador h3::before {
+  background: url("/img/icones/rastreador.svg") no-repeat center;
+
+}
