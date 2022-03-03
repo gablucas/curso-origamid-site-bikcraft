@@ -16,39 +16,39 @@
   object-position: left;
 }
 
-.conteudo-tecnologia {
+.tecnologia-conteudo {
   padding-top: 160px;
   padding-bottom: 160px;
 }
 
-.subtitulo-tecnologia {
+.tecnologia-conteudo > span {
   margin-bottom: 20px;
   display: block;
 }
 
-.titulo-tecnologia {
+.tecnologia-conteudo h2 {
   margin-bottom: 32px;
 }
 
-.texto-tecnologia {
+.tecnologia-conteudo p {
   margin-bottom: 20px;
 }
 
-.botao-tecnologia {
+.tecnologia-conteudo a {
   margin-bottom: 75px;
 }
 
-.lista-tecnologia {
+.tecnologia-lista {
   display: flex;
   gap: 40px;
 }
 
-.lista-tecnologia h3 {
+.tecnologia-lista h3 {
   margin-bottom: 8px;
   width: max-content;
 }
 
-.lista-tecnologia h3:before {
+.tecnologia-lista h3:before {
   content: "";
   width: 32px;
   height: 32px;
