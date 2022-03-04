@@ -5,7 +5,7 @@ body {
   height: 5000px;
 }
 
-h1, h2, h3, p, ul, body {
+h1, h2, h3, p, ul, body, blockquote {
   margin: 0px;
   padding: 0px;
 }
