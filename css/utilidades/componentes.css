@@ -1,3 +1,4 @@
+/* Container */
 .container {
   max-width: 1200px;
   padding-left: 20px;
@@ -7,6 +8,7 @@
   box-sizing: border-box;
 }
 
+/* Botao principal */
 .botao {
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
   text-transform: uppercase;
@@ -24,6 +26,7 @@
   background: linear-gradient(#ffb60d, #e59317);
 }
 
+/* Botão secundário */
 .botao.secundario {
   background: var(--cor-10);
   color: var(--cor-2);
@@ -33,7 +36,26 @@
   background: var(--cor-9);
 }
 
+.botao.seta {
+  display: flex;
+  align-items: center;
+}
 
+.botao.seta::after {
+  content: "";
+  width: 18px;
+  height: 10px;
+  background: url("../../img/icones/seta.svg");
+  margin-left: 12px;
+  display: inline-block;
+  transition: transform .2s;
+}
+
+.botao.seta:hover::after {
+  transform: translateX(4px);
+}
+
+/* Link */
 .link {
   display: inline-block;
   color: var(--cor-p1);
@@ -58,5 +80,30 @@
   .botao {
     padding: 12px 16px;
     font-size: 1rem;
+  }
+}
+
+/*Título interno*/
+.titulo-bg {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--cor-11);
+}
+
+.titulo p {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+
+  .titulo-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .titulo p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
   }
 }
