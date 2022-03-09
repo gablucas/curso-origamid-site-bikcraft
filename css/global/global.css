@@ -4,7 +4,7 @@ body {
   color: #111111;
 }
 
-h1, h2, h3, p, ul, body, blockquote {
+h1, h2, h3, p, ul, body, blockquote, dd {
   margin: 0px;
   padding: 0px;
 }
