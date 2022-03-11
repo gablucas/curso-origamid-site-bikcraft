@@ -22,8 +22,9 @@
 
 /* Bicicleta */
 @import "./bicicleta/bicicleta.css";
+@import "./bicicleta/seguro.css";
 
-/*Seguros*/
+/* Seguros */
 @import "./seguros/seguros.css";
 @import "./seguros/vantagens.css";
 @import "./seguros/perguntas.css";
