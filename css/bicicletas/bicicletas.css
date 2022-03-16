@@ -1,3 +1,7 @@
+.bicicletas-bg{
+  background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 30%);
+}
+
 .bicicletas {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -5,10 +9,8 @@
 
   padding-top: 60px;
   padding-bottom: 60px;
-}
 
-.bicicletas-bg{
-  background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 30%);
+  background: url("../../img/dec/top-right.svg") no-repeat top 40px right20px;
 }
 
 .bicicletas-imagem {
